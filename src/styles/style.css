@@ -1,5 +1,6 @@
 body {
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -34,7 +35,7 @@ body {
 }
 
 .footer {
-    background: #000;
+    background: #131313;
     padding: 93px 0 95px;
 }
 
@@ -61,19 +62,49 @@ body {
 
 .footer__nav-grid {
     display: grid;
-    grid-template-columns:repeat(5,1fr);
-    grid-template-rows:repeat(2, 1fr) ;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     align-items: end;
 }
-        
+
 .footer__nav-block li a {
     color: white;
+    text-decoration: none;
 }
-.footer__nav-block{
+
+.footer__nav-block li {
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.footer__nav-block {
     padding: 0;
 }
-.footer__nav-block form input[type="email"]{
-    width: 70%;
+
+.footer__nav-block form input[type="email"] {
+    border: none;
+    outline: none;
+    padding: 18px 24px;
+    font-size: 10px;
+    color: black;
+    line-height: 12px;
+
+
+}
+
+.footer__nav-block form input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 10px;
+    border-radius: 0px;
+    height: 48px;
+    padding: 10px;
+    margin: 0;
+}
+
+.footer .container hr {
+    margin: 60px 0;
 }
 
 
