@@ -166,3 +166,19 @@ button.main-banner__content-btn {
     border: none;
     padding: 0;
 }
+
+.news-big {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.news-big__block{
+    width: 450px;
+    height: 530px;
+}
+
+.news-big__block img{
+    width: 450px;
+}
